@@ -1,0 +1,201 @@
+/*
+dec032 - yellow
+3788c8 - blue
+e84827 - red/orange
+a24d98 - purple
+30a836 - green
+*/
+
+Html, body {
+  flex-direction: column;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  columns: column;
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+#logo {
+  width: 80%;
+  display: flex;
+}
+.menu {
+  width: 20%;
+}
+p {
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*MAIN*/
+.col1 {
+  text-align: center;
+}
+.col2 {
+  text-align: center;
+}
+.col3 {
+
+}
+.col4 {
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: center;
+  background: rgba(222, 192, 50, 0.8);
+  padding: 10px;
+}
+.admission {
+  flex-direction: column;
+  text-align: center;
+}
+.hours {
+  flex-direction: column;
+  text-align: center;
+  font-size: 1em;
+}
+/*
+dec032 - yellow
+3788c8 - blue
+e84827 - red/orange
+a24d98 - purple
+30a836 - green
+*/
+/* Mobile and Tablet */
+@media only screen and (min-width: 250px) and (max-width: 699px) {
+  .container {
+    overflow: auto;
+    scroll-behavior: smooth;
+    height: 500px;
+
+  }
+  .dropbutton {
+   color: black;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   background-color: #30a836;
+  }
+  .dropdown {
+   position: relative;
+   display: inline-block;
+   margin: left;
+   max-height: 75%;
+   width: 100%;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #30a836;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+   background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+   display: block;
+  }
+  .dropdown:hover .dropbutton {
+   background-color: #ddd;
+  }
+  #nav-home {
+    background: white;
+    color: black;
+    display: flex;
+    width: 150%;
+  }
+  .nav-explore {
+    background: #30a836;
+    padding: 5px;
+    display: flex;
+    width: 150%;
+  }
+  .nav-exhibition {
+    background: #a24d98;
+    padding: 5px;
+    display: flex;
+    width: 150%;
+  }
+  .nav-specials {
+    background: #e84827;
+    padding: 5px;
+    display: flex;
+    width: 150%;
+  }
+  .nav-visit {
+    background: #3788c8;
+    padding: 5px;
+    display: flex;
+    width: 150%;
+  }
+  .nav-involved {
+    background: #dec032;
+    padding: 5px;
+    display: flex;
+    width: 150%;
+  }
+
+  .headerImage {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: url(../images/mammoth.jpg);
+    width: 100%;
+  }
+}
+/* Laptop and Desktop */
+@media only screen and (min-width: 700px){
+  #nav-home {
+    background: white;
+    color: black;
+    padding: 10px;
+  }
+  .nav-explore {
+    background: #30a836;
+    padding: 10px;
+  }
+  .nav-exhibition {
+    background: #a24d98;
+    padding: 10px;
+  }
+  .nav-specials {
+    background: #e84827;
+    padding: 10px;
+  }
+  .nav-visit {
+    background: #3788c8;
+    padding: 10px;
+  }
+  .nav-involved {
+    background: #dec032;
+    padding: 10px;
+  }
+  .nav-desktop a {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    background: #dec032;
+    padding: 10px;
+  }
+}
