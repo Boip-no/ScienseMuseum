@@ -6,7 +6,7 @@ a24d98 - purple
 30a836 - green
 */
 
-Html, body {
+Html body {
   flex-direction: column;
   display: block;
   font-family: 'Open Sans', sans-serif;
@@ -19,12 +19,10 @@ header {
   display: flex;
   flex-direction: row;
 }
-#logo {
-  width: 80%;
-  display: flex;
-}
+
 .menu {
   width: 20%;
+  display: flex;
 }
 p {
   padding: 5px;
@@ -48,21 +46,21 @@ p {
 footer {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-end;
   align-content: center;
   background: rgba(222, 192, 50, 0.8);
-  padding: 10px;
 }
-.admission {
+.footer {
+  flex-direction: column;
+  text-align: center;
+}
+/*.admission {
   flex-direction: column;
   text-align: center;
 }
 .hours {
   flex-direction: column;
-  text-align: center;
-  font-size: 1em;
-}
+  justify-content: center;
+}*/
 /*
 dec032 - yellow
 3788c8 - blue
@@ -153,15 +151,37 @@ a24d98 - purple
   }
 
   .headerImage {
+    background-image: url(../images/mammoth.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .learnbtn {
+    background: #a24d98;
+    padding: 0.8em;
+    padding: #a24d98;
+    align-content: flex-end;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  footer {
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
-    background: url(../images/mammoth.jpg);
-    width: 100%;
+    background: #dec032;
+    padding: 10px;
   }
 }
 /* Laptop and Desktop */
 @media only screen and (min-width: 700px){
+  #logo {
+    width: 100%;
+    flex-direction: column;
+  }
   #nav-home {
     background: white;
     color: black;
@@ -191,6 +211,26 @@ a24d98 - purple
     text-decoration: none;
     color: white;
     text-align: right;
+    flex-direction: row;
+  }
+  .headerImage {
+    background-image: url(../images/mammoth.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .learnbtn {
+    background: #a24d98;
+    padding: 0.8em;
+    padding: #a24d98;
+    align-content: center;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+
+    color: white;
   }
   footer {
     display: flex;
