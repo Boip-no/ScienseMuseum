@@ -21,21 +21,21 @@ header {
   justify-content: space-between;
 }
 
-.menu {
-  width: 20%;
-  display: flex;
-}
+
 p {
   padding: 5px;
   font-family: 'Roboto', sans-serif;
 }
 
+h1 h2 h3 h4 {
+  align-items: center;
+}
 /*MAIN*/
 .col1 {
-  text-align: center;
+
 }
 .col2 {
-  text-align: center;
+
 }
 .col3 {
 
@@ -76,6 +76,12 @@ a24d98 - purple
     scroll-behavior: smooth;
     height: 500px;
 
+  }
+  .menu {
+    width: 20%;
+    display: flex;
+    /*padding-left: 50%;*/
+    justify-content: space-between;
   }
   .dropbutton {
    color: black;
@@ -160,7 +166,7 @@ a24d98 - purple
     position: relative;
   }
   .headerImage2 {
-    background-image: url(../images/lab-512503_1920.jpg);
+    background-image: url(../images/Kid-teacher/research.jpg);
     min-height: 200px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -168,10 +174,9 @@ a24d98 - purple
     position: relative;
   }
   .headerImage3 {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
+    background-image: url(../images/celso-405219.jpg);
     min-height: 200px;
     min-width: 100%;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -226,11 +231,17 @@ a24d98 - purple
   #nav-home {
     background: white;
     color: black;
-    padding: 10px;
+    padding: 20px;
+  }
+  .menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
   }
   .nav-explore {
     background: #30a836;
     padding: 10px;
+    justify-content: space-between;
   }
   .nav-exhibition {
     background: #a24d98;
@@ -260,7 +271,7 @@ a24d98 - purple
     flex-direction: row;
   }
   .dropdown {
-
+    button: hidden;
   }
   .headerImage {
     background-image: url(../images/exhibition-1863344_1920.jpg);
@@ -271,7 +282,7 @@ a24d98 - purple
     position: relative;
   }
   .headerImage2 {
-    background-image: url(../images/lab-512503_1920.jpg);
+    background-image: url(../images/Kid-teacher/research.jpg);
     min-height: 700px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -321,39 +332,58 @@ a24d98 - purple
     left: 10%;
     color: white;
   }
+  .explore {
+    display: flex;
+    width: 30%;
+  }
+  .exploreRes {
+    display: flex;
+    width: 90%;
+    align-items: center;
+  }
+
   .fourBlocks {
-    display: block;
+    display: inline-block;
     flex-direction: row;
-    -webkit-box-flex: 0;
     width: 100px;
+    padding: 20px;
+
   }
   .blockKid {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
-    display: block;
+    background-image: url(../images/Kid-teacher/kid2.jpg);
+    display: inline-flex;
+    background-repeat: no-repeat;
+    padding: 20px;
     flex-direction: row;
-    -webkit-box-flex: 0;
     width: 100px;
+    justify-content: space-between;
   }
   .blockParents {
     background-image: url(../images/exhibition-1863344_1920.jpg);
-    display: block;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    padding: 20px;
     flex-direction: row;
-    -webkit-box-flex: 0;
     width: 100px;
+    justify-content: space-between;
   }
   .blockTeach {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
-    display: block;
+    background-image: url(../images/Kid-teacher/teacher.jpg);
+    display: inline-flex;
+    background-size: fixed;
+    padding: 20px;
     flex-direction: row;
-    -webkit-box-flex: 0;
     width: 100px;
+        justify-content: space-between;
   }
   .blockRes {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
-    display: block;
+    background-image: url(../images/Kid-teacher/research.jpg);
+    display: inline-flex;
+    background-repeat: no-repeat;
+    padding: 20px;
     flex-direction: row;
-    -webkit-box-flex: 0;
     width: 100px;
+        justify-content: space-between;
   }
   footer {
     display: flex;
