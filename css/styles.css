@@ -30,16 +30,28 @@ p {
 
 /*MAIN*/
 .col1 {
-
+  padding: 20px;
+  margin-top: 0;
 }
 .col2 {
-
+  padding: 20px;
+  margin-top: 0;
 }
 .col3 {
-
+  padding: 20px;
+  margin-top: 0;
 }
 .col4 {
-
+  padding: 20px;
+  margin-top: 0;
+}
+.col5 {
+  padding: 20px;
+  margin-top: 0;
+}
+.col6 {
+  padding: 20px;
+  margin-top: 0;
 }
 
 footer {
@@ -80,7 +92,6 @@ a24d98 - purple
   .container {
     overflow: auto;
     scroll-behavior: smooth;
-    height: 500px;
 
   }
   .menu {
@@ -223,6 +234,52 @@ a24d98 - purple
     left: 20%;
     transform: translate(-50%, -50%);
   }
+  .infoBlocks {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .blockKid {
+    flex: 1;
+    padding: 20px;
+    background-image: url(../images/kid2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15em;
+    margin: 10px;
+  }
+  .blockParents {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    flex: 1;
+    padding: 20px;
+    justify-content: flex-end;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15em;
+    margin: 10px;
+  }
+  .blockTeach {
+    background-image: url(../images/teacher.jpg);
+    flex: 1;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15em;
+    margin: 10px;
+  }
+  .blockRes {
+    background-image: url(../images/research.jpg);
+    flex: 1;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15em;
+    margin: 10px;
+  }
   footer {
     display: flex;
     flex-direction: column;
@@ -264,6 +321,7 @@ a24d98 - purple
     color: black;
     padding: 10px;
     color: #3788c8;
+    margin: 5px;
   }
   .menu {
     display: flex;
@@ -272,34 +330,34 @@ a24d98 - purple
   }
   .nav-explore {
     background: #30a836;
-    padding: 10px;
+    padding: 0px 15px 0px 15px;
     justify-content: space-between;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
   }
   .nav-exhibition {
     background: #a24d98;
-    padding: 10px;
+    padding: 0px 15px 0px 15px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
   }
   .nav-specials {
     background: #e84827;
-    padding: 10px;
+    padding: 0px 10px 0px 5px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
   }
   .nav-visit {
     background: #3788c8;
-    padding: 10px;
+    padding: 0px 15px 0px 15px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
   }
   .nav-involved {
     background: #dec032;
-    padding: 10px;
+    padding: 0px 15px 0px 15px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
   }
   .nav-desktop {
     display: flex;
@@ -401,30 +459,38 @@ a24d98 - purple
     flex: 1;
     padding: 20px;
     background-image: url(../images/kid2.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 15em;
+    margin: 10px;
   }
   .blockParents {
     background-image: url(../images/exhibition-1863344_1920.jpg);
     flex: 1;
     padding: 20px;
     justify-content: flex-end;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 15em;
+    margin: 10px;
   }
   .blockTeach {
     background-image: url(../images/teacher.jpg);
     flex: 1;
     padding: 20px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 15em;
+    margin: 10px;
   }
   .blockRes {
     background-image: url(../images/research.jpg);
     flex: 1;
     padding: 20px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 15em;
+    margin: 10px;
   }
   footer {
     display: flex;
