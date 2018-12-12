@@ -27,9 +27,7 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 h2 h3 h4 {
-  align-items: center;
-}
+
 /*MAIN*/
 .col1 {
 
@@ -71,6 +69,14 @@ a24d98 - purple
 */
 /* Mobile and Tablet */
 @media only screen and (min-width: 250px) and (max-width: 699px) {
+  h1 h2 h3 h4 {
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  .col-content {
+    text-align: center;
+  }
+
   .container {
     overflow: auto;
     scroll-behavior: smooth;
@@ -84,18 +90,19 @@ a24d98 - purple
     justify-content: space-between;
   }
   .dropbutton {
-   color: black;
-   padding: 16px;
-   font-size: 16px;
-   border: none;
-   background-color: #30a836;
+    display: block;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #30a836;
   }
   .dropdown {
-   position: relative;
-   display: inline-block;
-   margin: left;
-   max-height: 75%;
-   width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: left;
+    max-height: 75%;
+    width: 100%;
   }
   .dropdown-content {
     display: none;
@@ -208,6 +215,7 @@ a24d98 - purple
     background: #a24d98;
     padding: 0.8em;
     padding: #a24d98;
+    border-radius: 10px;
     align-content: flex-end;
     position: absolute;
     color: white;
@@ -224,6 +232,29 @@ a24d98 - purple
 }
 /* Laptop and Desktop */
 @media only screen and (min-width: 700px){
+  h1 {
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+  }
+  h2 {
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+  }
+  h3 {
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+  }
+  h4 {
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
   #logo {
     width: 100%;
     flex-direction: column;
@@ -231,7 +262,8 @@ a24d98 - purple
   #nav-home {
     background: white;
     color: black;
-    padding: 20px;
+    padding: 10px;
+    color: #3788c8;
   }
   .menu {
     display: flex;
@@ -242,22 +274,32 @@ a24d98 - purple
     background: #30a836;
     padding: 10px;
     justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px;
   }
   .nav-exhibition {
     background: #a24d98;
     padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
   }
   .nav-specials {
     background: #e84827;
     padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
   }
   .nav-visit {
     background: #3788c8;
     padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
   }
   .nav-involved {
     background: #dec032;
     padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
   }
   .nav-desktop {
     display: flex;
@@ -270,8 +312,8 @@ a24d98 - purple
     text-align: right;
     flex-direction: row;
   }
-  .dropdown {
-    button: hidden;
+  .dropbutton {
+    display: none;
   }
   .headerImage {
     background-image: url(../images/exhibition-1863344_1920.jpg);
@@ -282,7 +324,7 @@ a24d98 - purple
     position: relative;
   }
   .headerImage2 {
-    background-image: url(../images/Kid-teacher/research.jpg);
+    background-image: url(../images/research.jpg);
     min-height: 700px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -325,12 +367,16 @@ a24d98 - purple
     background: #e84827;
     font-size: 3em;
     padding: 0.8em;
+    border-radius: 30px;
     padding: #e84827;
     align-content: center;
     position: absolute;
     top: 70%;
-    left: 10%;
+    right: 5%;
     color: white;
+  }
+  .col-content {
+    text-align: center;
   }
   .explore {
     display: flex;
@@ -342,48 +388,43 @@ a24d98 - purple
     align-items: center;
   }
 
-  .fourBlocks {
-    display: inline-block;
+  .infoBlocks {
+    display: flex;
     flex-direction: row;
-    width: 100px;
+    width: 90%;
     padding: 20px;
-
+    align-items: center;
+    text-align: center;
   }
+
   .blockKid {
-    background-image: url(../images/Kid-teacher/kid2.jpg);
-    display: inline-flex;
-    background-repeat: no-repeat;
+    flex: 1;
     padding: 20px;
-    flex-direction: row;
-    width: 100px;
-    justify-content: space-between;
+    background-image: url(../images/kid2.jpg);
+    background-size: cover;
+    height: 15em;
   }
   .blockParents {
     background-image: url(../images/exhibition-1863344_1920.jpg);
-    display: inline-flex;
-    background-repeat: no-repeat;
+    flex: 1;
     padding: 20px;
-    flex-direction: row;
-    width: 100px;
-    justify-content: space-between;
+    justify-content: flex-end;
+    background-size: cover;
+    height: 15em;
   }
   .blockTeach {
-    background-image: url(../images/Kid-teacher/teacher.jpg);
-    display: inline-flex;
-    background-size: fixed;
+    background-image: url(../images/teacher.jpg);
+    flex: 1;
     padding: 20px;
-    flex-direction: row;
-    width: 100px;
-        justify-content: space-between;
+    background-size: cover;
+    height: 15em;
   }
   .blockRes {
-    background-image: url(../images/Kid-teacher/research.jpg);
-    display: inline-flex;
-    background-repeat: no-repeat;
+    background-image: url(../images/research.jpg);
+    flex: 1;
     padding: 20px;
-    flex-direction: row;
-    width: 100px;
-        justify-content: space-between;
+    background-size: cover;
+    height: 15em;
   }
   footer {
     display: flex;
