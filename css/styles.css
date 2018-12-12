@@ -18,6 +18,7 @@ Html body {
 header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .menu {
@@ -151,7 +152,47 @@ a24d98 - purple
   }
 
   .headerImage {
-    background-image: url(../images/mammoth.jpg);
+    background-image: url(../images/scott-webb-102825.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage2 {
+    background-image: url(../images/lab-512503_1920.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage3 {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage4 {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage5 {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage6 {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
     min-height: 200px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -165,8 +206,8 @@ a24d98 - purple
     align-content: flex-end;
     position: absolute;
     color: white;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 20%;
     transform: translate(-50%, -50%);
   }
   footer {
@@ -207,14 +248,62 @@ a24d98 - purple
     background: #dec032;
     padding: 10px;
   }
+  .nav-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
   .nav-desktop a {
     text-decoration: none;
     color: white;
     text-align: right;
     flex-direction: row;
   }
+  .dropdown {
+
+  }
   .headerImage {
-    background-image: url(../images/mammoth.jpg);
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage2 {
+    background-image: url(../images/lab-512503_1920.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage3 {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage4 {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage5 {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .headerImage6 {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
     min-height: 700px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -222,15 +311,49 @@ a24d98 - purple
     position: relative;
   }
   .learnbtn {
-    background: #a24d98;
+    background: #e84827;
+    font-size: 3em;
     padding: 0.8em;
-    padding: #a24d98;
+    padding: #e84827;
     align-content: center;
     position: absolute;
-    top: 90%;
+    top: 70%;
     left: 10%;
-
     color: white;
+  }
+  .fourBlocks {
+    display: block;
+    flex-direction: row;
+    -webkit-box-flex: 0;
+    width: 100px;
+  }
+  .blockKid {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    display: block;
+    flex-direction: row;
+    -webkit-box-flex: 0;
+    width: 100px;
+  }
+  .blockParents {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    display: block;
+    flex-direction: row;
+    -webkit-box-flex: 0;
+    width: 100px;
+  }
+  .blockTeach {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    display: block;
+    flex-direction: row;
+    -webkit-box-flex: 0;
+    width: 100px;
+  }
+  .blockRes {
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    display: block;
+    flex-direction: row;
+    -webkit-box-flex: 0;
+    width: 100px;
   }
   footer {
     display: flex;
@@ -239,3 +362,10 @@ a24d98 - purple
     padding: 10px;
   }
 }
+/*
+dec032 - yellow
+3788c8 - blue
+e84827 - red/orange
+a24d98 - purple
+30a836 - green
+*/
