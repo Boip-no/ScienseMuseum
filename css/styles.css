@@ -26,7 +26,10 @@ p {
   padding: 5px;
   font-family: 'Roboto', sans-serif;
 }
-
+img {
+  display: flex;
+  width: 100%;
+}
 
 /*MAIN*/
 .col1 {
@@ -330,32 +333,32 @@ a24d98 - purple
   }
   .nav-explore {
     background: #30a836;
-    padding: 0px 15px 0px 15px;
+    padding: 5px 15px 5px 15px;
     justify-content: space-between;
     border-radius: 10px;
     margin: 5px;
   }
   .nav-exhibition {
     background: #a24d98;
-    padding: 0px 15px 0px 15px;
+    padding: 5px 15px 5px 15px;
     border-radius: 10px;
     margin: 5px;
   }
   .nav-specials {
     background: #e84827;
-    padding: 0px 10px 0px 5px;
+    padding: 5px 10px 5px 5px;
     border-radius: 10px;
     margin: 5px;
   }
   .nav-visit {
     background: #3788c8;
-    padding: 0px 15px 0px 15px;
+    padding: 5px 15px 5px 15px;
     border-radius: 10px;
     margin: 5px;
   }
   .nav-involved {
     background: #dec032;
-    padding: 0px 15px 0px 15px;
+    padding: 5px 15px 5px 15px;
     border-radius: 10px;
     margin: 5px;
   }
@@ -390,7 +393,7 @@ a24d98 - purple
     position: relative;
   }
   .headerImage3 {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
+    background-image: url(../images/celso-405219.jpg);
     min-height: 700px;
     min-width: 100%;
     background-repeat: no-repeat;
