@@ -35,26 +35,32 @@ img {
 .col1 {
   padding: 20px;
   margin-top: 0;
+  border-top: outset;
 }
 .col2 {
   padding: 20px;
   margin-top: 0;
+  border-top: outset;
 }
 .col3 {
   padding: 20px;
   margin-top: 0;
+  border-top: outset;
 }
 .col4 {
   padding: 20px;
   margin-top: 0;
+  border-top: outset;
 }
 .col5 {
   padding: 20px;
   margin-top: 0;
+  border-top: outset;
 }
 .col6 {
   padding: 20px;
   margin-top: 0;
+  border-top: outset;
 }
 
 footer {
@@ -187,7 +193,7 @@ a24d98 - purple
     position: relative;
   }
   .headerImage2 {
-    background-image: url(../images/Kid-teacher/research.jpg);
+    background-image: url(../images/research.jpg);
     min-height: 200px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -202,7 +208,7 @@ a24d98 - purple
     position: relative;
   }
   .headerImage4 {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
+    background-image: url(../images/binoculars-2028304.jpg);
     min-height: 200px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -218,7 +224,7 @@ a24d98 - purple
     position: relative;
   }
   .headerImage6 {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
+    background-image: url(../images/kid.jpg);
     min-height: 200px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -226,37 +232,40 @@ a24d98 - purple
     position: relative;
   }
   .learnbtn {
-    background: #a24d98;
+    background: #e84827;
     padding: 0.8em;
-    padding: #a24d98;
+    padding: #e84827;
     border-radius: 10px;
     align-content: flex-end;
     position: absolute;
     color: white;
-    top: 60%;
+    top: 80%;
     left: 20%;
     transform: translate(-50%, -50%);
   }
-  .infoBlocks {
+  .visit-info {
     display: flex;
-    flex-direction: row;
-    width: 90%;
+    flex-direction: column;
+    width: 100%;
     padding: 20px;
-    align-items: center;
     text-align: center;
   }
+  .visit-info a {
+    text-decoration: none;
+    color: #e84827;
+  }
 
-  .blockKid {
+  .blockCosm {
     flex: 1;
     padding: 20px;
-    background-image: url(../images/kid2.jpg);
+    background-image: url(../images/andrew-ruiz-3484212.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 15em;
     margin: 10px;
   }
-  .blockParents {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
+  .blockEvo {
+    background-image: url(../images/mammoth2.jpg);
     flex: 1;
     padding: 20px;
     justify-content: flex-end;
@@ -265,8 +274,8 @@ a24d98 - purple
     height: 15em;
     margin: 10px;
   }
-  .blockTeach {
-    background-image: url(../images/teacher.jpg);
+  .blockBio {
+    background-image: url(../images/people-219985_12802.jpg);
     flex: 1;
     padding: 20px;
     background-size: contain;
@@ -274,8 +283,8 @@ a24d98 - purple
     height: 15em;
     margin: 10px;
   }
-  .blockRes {
-    background-image: url(../images/research.jpg);
+  .blockAi {
+    background-image: url(../images/billetto-editorial-3346862.jpg);
     flex: 1;
     padding: 20px;
     background-size: contain;
@@ -401,7 +410,7 @@ a24d98 - purple
     position: relative;
   }
   .headerImage4 {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
+    background-image: url(../images/binoculars-2028304.jpg);
     min-height: 700px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -417,7 +426,7 @@ a24d98 - purple
     position: relative;
   }
   .headerImage6 {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
+    background-image: url(../images/kid.jpg);
     min-height: 700px;
     min-width: 100%;
     background-repeat: no-repeat;
@@ -449,26 +458,30 @@ a24d98 - purple
     align-items: center;
   }
 
-  .infoBlocks {
+  .visit-info {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: auto;
     padding: 20px;
-    align-items: center;
     text-align: center;
+    border-top: outset;
+  }
+  .visit-info a {
+    text-decoration: none;
+    color: #e84827;
   }
 
-  .blockKid {
+  .blockCosm {
     flex: 1;
     padding: 20px;
-    background-image: url(../images/kid2.jpg);
+    background-image: url(../images/andrew-ruiz-3484212.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 15em;
     margin: 10px;
   }
-  .blockParents {
-    background-image: url(../images/exhibition-1863344_1920.jpg);
+  .blockEvo {
+    background-image: url(../images/mammoth2.jpg);
     flex: 1;
     padding: 20px;
     justify-content: flex-end;
@@ -477,8 +490,8 @@ a24d98 - purple
     height: 15em;
     margin: 10px;
   }
-  .blockTeach {
-    background-image: url(../images/teacher.jpg);
+  .blockBio {
+    background-image: url(../images/people-219985_12802.jpg);
     flex: 1;
     padding: 20px;
     background-size: contain;
@@ -486,8 +499,8 @@ a24d98 - purple
     height: 15em;
     margin: 10px;
   }
-  .blockRes {
-    background-image: url(../images/research.jpg);
+  .blockAi {
+    background-image: url(../images/billetto-editorial-3346862.jpg);
     flex: 1;
     padding: 20px;
     background-size: contain;
